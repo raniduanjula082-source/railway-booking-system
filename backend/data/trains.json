@@ -1,0 +1,452 @@
+[
+  {
+    "_id": {
+      "$oid": "695bb15d7b4adb9715295e2a"
+    },
+    "name": "Express 1",
+    "number": "TR-1001",
+    "source": "Jaffna",
+    "destination": "Batticaloa",
+    "departureTime": "06:30",
+    "arrivalTime": "08:18",
+    "price": 133,
+    "totalSeats": 100,
+    "availableSeats": 22,
+    "_class": "com.example.backend.model.Train"
+  },
+  {
+    "_id": {
+      "$oid": "695bb15d8ce14cac073ca973"
+    },
+    "name": "Express 2",
+    "number": "TR-1002",
+    "source": "Batticaloa",
+    "destination": "Jaffna",
+    "departureTime": "10:04",
+    "arrivalTime": "11:27",
+    "price": 637,
+    "totalSeats": 100,
+    "availableSeats": 73,
+    "_class": "com.example.backend.model.Train"
+  },
+  {
+    "_id": {
+      "$oid": "695bb15d2d7e5b59236d6764"
+    },
+    "name": "Express 3",
+    "number": "TR-1003",
+    "source": "Matara",
+    "destination": "Anuradhapura",
+    "departureTime": "17:23",
+    "arrivalTime": "13:22",
+    "price": 620,
+    "totalSeats": 100,
+    "availableSeats": 72,
+    "_class": "com.example.backend.model.Train"
+  },
+  {
+    "_id": {
+      "$oid": "695bb15d5dbfe6228676d058"
+    },
+    "name": "Express 4",
+    "number": "TR-1004",
+    "source": "Colombo",
+    "destination": "Jaffna",
+    "departureTime": "10:12",
+    "arrivalTime": "19:45",
+    "price": 590,
+    "totalSeats": 100,
+    "availableSeats": 13,
+    "_class": "com.example.backend.model.Train"
+  },
+  {
+    "_id": {
+      "$oid": "695bb15d928039b49750db8b"
+    },
+    "name": "Express 5",
+    "number": "TR-1005",
+    "source": "Trincomalee",
+    "destination": "Matara",
+    "departureTime": "08:43",
+    "arrivalTime": "08:03",
+    "price": 387,
+    "totalSeats": 100,
+    "availableSeats": 63,
+    "_class": "com.example.backend.model.Train"
+  },
+  {
+    "_id": {
+      "$oid": "695bb15da9808dee07861753"
+    },
+    "name": "Express 6",
+    "number": "TR-1006",
+    "source": "Trincomalee",
+    "destination": "Kandy",
+    "departureTime": "20:10",
+    "arrivalTime": "07:49",
+    "price": 194,
+    "totalSeats": 100,
+    "availableSeats": 21,
+    "_class": "com.example.backend.model.Train"
+  },
+  {
+    "_id": {
+      "$oid": "695bb15db4b6ae56d6e72f6d"
+    },
+    "name": "Express 7",
+    "number": "TR-1007",
+    "source": "Colombo",
+    "destination": "Anuradhapura",
+    "departureTime": "07:22",
+    "arrivalTime": "23:03",
+    "price": 964,
+    "totalSeats": 100,
+    "availableSeats": 0,
+    "_class": "com.example.backend.model.Train"
+  },
+  {
+    "_id": {
+      "$oid": "695bb15dda11c55a6f0a0e07"
+    },
+    "name": "Express 8",
+    "number": "TR-1008",
+    "source": "Galle",
+    "destination": "Jaffna",
+    "departureTime": "04:51",
+    "arrivalTime": "05:50",
+    "price": 253,
+    "totalSeats": 100,
+    "availableSeats": 39,
+    "_class": "com.example.backend.model.Train"
+  },
+  {
+    "_id": {
+      "$oid": "695bb15d98e68b2e681a6ffc"
+    },
+    "name": "Express 9",
+    "number": "TR-1009",
+    "source": "Galle",
+    "destination": "Matara",
+    "departureTime": "23:48",
+    "arrivalTime": "09:48",
+    "price": 962,
+    "totalSeats": 100,
+    "availableSeats": 55,
+    "_class": "com.example.backend.model.Train"
+  },
+  {
+    "_id": {
+      "$oid": "695bb15dd8c83d34cf799d3a"
+    },
+    "name": "Express 10",
+    "number": "TR-1010",
+    "source": "Batticaloa",
+    "destination": "Trincomalee",
+    "departureTime": "01:01",
+    "arrivalTime": "22:18",
+    "price": 184,
+    "totalSeats": 100,
+    "availableSeats": 41,
+    "_class": "com.example.backend.model.Train"
+  },
+  {
+    "_id": {
+      "$oid": "695bb15dd02a293e8e8463d8"
+    },
+    "name": "Express 11",
+    "number": "TR-1011",
+    "source": "Matara",
+    "destination": "Batticaloa",
+    "departureTime": "16:34",
+    "arrivalTime": "18:10",
+    "price": 248,
+    "totalSeats": 100,
+    "availableSeats": 56,
+    "_class": "com.example.backend.model.Train"
+  },
+  {
+    "_id": {
+      "$oid": "695bb15d6f9dd0fef276dd73"
+    },
+    "name": "Express 12",
+    "number": "TR-1012",
+    "source": "Matara",
+    "destination": "Trincomalee",
+    "departureTime": "08:11",
+    "arrivalTime": "21:40",
+    "price": 1058,
+    "totalSeats": 100,
+    "availableSeats": 40,
+    "_class": "com.example.backend.model.Train"
+  },
+  {
+    "_id": {
+      "$oid": "695bb15df032abb4bb0025bd"
+    },
+    "name": "Express 13",
+    "number": "TR-1013",
+    "source": "Colombo",
+    "destination": "Matara",
+    "departureTime": "17:33",
+    "arrivalTime": "01:54",
+    "price": 111,
+    "totalSeats": 100,
+    "availableSeats": 62,
+    "_class": "com.example.backend.model.Train"
+  },
+  {
+    "_id": {
+      "$oid": "695bb15d21fad758e8e522c6"
+    },
+    "name": "Express 14",
+    "number": "TR-1014",
+    "source": "Galle",
+    "destination": "Colombo",
+    "departureTime": "11:46",
+    "arrivalTime": "16:28",
+    "price": 507,
+    "totalSeats": 100,
+    "availableSeats": 82,
+    "_class": "com.example.backend.model.Train"
+  },
+  {
+    "_id": {
+      "$oid": "695bb15d96e2d5c633330cf0"
+    },
+    "name": "Express 15",
+    "number": "TR-1015",
+    "source": "Kandy",
+    "destination": "Galle",
+    "departureTime": "08:30",
+    "arrivalTime": "02:39",
+    "price": 517,
+    "totalSeats": 100,
+    "availableSeats": 10,
+    "_class": "com.example.backend.model.Train"
+  },
+  {
+    "_id": {
+      "$oid": "695bb15dec7afef900f9ff89"
+    },
+    "name": "Express 16",
+    "number": "TR-1016",
+    "source": "Trincomalee",
+    "destination": "Batticaloa",
+    "departureTime": "07:11",
+    "arrivalTime": "10:03",
+    "price": 468,
+    "totalSeats": 100,
+    "availableSeats": 41,
+    "_class": "com.example.backend.model.Train"
+  },
+  {
+    "_id": {
+      "$oid": "695bb15d4774d01d2ccc439e"
+    },
+    "name": "Express 17",
+    "number": "TR-1017",
+    "source": "Colombo",
+    "destination": "Anuradhapura",
+    "departureTime": "19:45",
+    "arrivalTime": "06:57",
+    "price": 901,
+    "totalSeats": 100,
+    "availableSeats": 23,
+    "_class": "com.example.backend.model.Train"
+  },
+  {
+    "_id": {
+      "$oid": "695bb15d14924c7dd1e2a8c2"
+    },
+    "name": "Express 18",
+    "number": "TR-1018",
+    "source": "Trincomalee",
+    "destination": "Anuradhapura",
+    "departureTime": "17:20",
+    "arrivalTime": "01:59",
+    "price": 331,
+    "totalSeats": 100,
+    "availableSeats": 3,
+    "_class": "com.example.backend.model.Train"
+  },
+  {
+    "_id": {
+      "$oid": "695bb15d405a2271b0d67ccb"
+    },
+    "name": "Express 19",
+    "number": "TR-1019",
+    "source": "Colombo",
+    "destination": "Matara",
+    "departureTime": "00:21",
+    "arrivalTime": "02:06",
+    "price": 726,
+    "totalSeats": 100,
+    "availableSeats": 96,
+    "_class": "com.example.backend.model.Train"
+  },
+  {
+    "_id": {
+      "$oid": "695bb15d4c64192a4142cb51"
+    },
+    "name": "Express 20",
+    "number": "TR-1020",
+    "source": "Colombo",
+    "destination": "Trincomalee",
+    "departureTime": "08:19",
+    "arrivalTime": "14:39",
+    "price": 692,
+    "totalSeats": 100,
+    "availableSeats": 97,
+    "_class": "com.example.backend.model.Train"
+  },
+  {
+    "_id": {
+      "$oid": "695bb15d6ce58a70e695f218"
+    },
+    "name": "Express 21",
+    "number": "TR-1021",
+    "source": "Jaffna",
+    "destination": "Kandy",
+    "departureTime": "02:55",
+    "arrivalTime": "16:29",
+    "price": 221,
+    "totalSeats": 100,
+    "availableSeats": 86,
+    "_class": "com.example.backend.model.Train"
+  },
+  {
+    "_id": {
+      "$oid": "695bb15d36c95d1eb6f2c55d"
+    },
+    "name": "Express 22",
+    "number": "TR-1022",
+    "source": "Matara",
+    "destination": "Kandy",
+    "departureTime": "07:36",
+    "arrivalTime": "01:20",
+    "price": 420,
+    "totalSeats": 100,
+    "availableSeats": 29,
+    "_class": "com.example.backend.model.Train"
+  },
+  {
+    "_id": {
+      "$oid": "695bb15dd1a42521ab21543d"
+    },
+    "name": "Express 23",
+    "number": "TR-1023",
+    "source": "Anuradhapura",
+    "destination": "Batticaloa",
+    "departureTime": "13:12",
+    "arrivalTime": "08:37",
+    "price": 460,
+    "totalSeats": 100,
+    "availableSeats": 96,
+    "_class": "com.example.backend.model.Train"
+  },
+  {
+    "_id": {
+      "$oid": "695bb15d84d8c58c43a00607"
+    },
+    "name": "Express 24",
+    "number": "TR-1024",
+    "source": "Galle",
+    "destination": "Anuradhapura",
+    "departureTime": "10:14",
+    "arrivalTime": "21:20",
+    "price": 201,
+    "totalSeats": 100,
+    "availableSeats": 70,
+    "_class": "com.example.backend.model.Train"
+  },
+  {
+    "_id": {
+      "$oid": "695bb15de88df1ec09589e85"
+    },
+    "name": "Express 25",
+    "number": "TR-1025",
+    "source": "Kandy",
+    "destination": "Galle",
+    "departureTime": "19:54",
+    "arrivalTime": "13:24",
+    "price": 650,
+    "totalSeats": 100,
+    "availableSeats": 87,
+    "_class": "com.example.backend.model.Train"
+  },
+  {
+    "_id": {
+      "$oid": "695bb15d24805dfca6110301"
+    },
+    "name": "Express 26",
+    "number": "TR-1026",
+    "source": "Batticaloa",
+    "destination": "Jaffna",
+    "departureTime": "08:46",
+    "arrivalTime": "23:25",
+    "price": 672,
+    "totalSeats": 100,
+    "availableSeats": 23,
+    "_class": "com.example.backend.model.Train"
+  },
+  {
+    "_id": {
+      "$oid": "695bb15d16ff6ea7ea44e657"
+    },
+    "name": "Express 27",
+    "number": "TR-1027",
+    "source": "Kandy",
+    "destination": "Anuradhapura",
+    "departureTime": "16:04",
+    "arrivalTime": "06:23",
+    "price": 1064,
+    "totalSeats": 100,
+    "availableSeats": 41,
+    "_class": "com.example.backend.model.Train"
+  },
+  {
+    "_id": {
+      "$oid": "695bb15ddd384c3a8c459696"
+    },
+    "name": "Express 28",
+    "number": "TR-1028",
+    "source": "Batticaloa",
+    "destination": "Kandy",
+    "departureTime": "21:10",
+    "arrivalTime": "22:46",
+    "price": 407,
+    "totalSeats": 100,
+    "availableSeats": 45,
+    "_class": "com.example.backend.model.Train"
+  },
+  {
+    "_id": {
+      "$oid": "695bb15d6533dd1caaa06de2"
+    },
+    "name": "Express 29",
+    "number": "TR-1029",
+    "source": "Trincomalee",
+    "destination": "Colombo",
+    "departureTime": "03:54",
+    "arrivalTime": "20:26",
+    "price": 1009,
+    "totalSeats": 100,
+    "availableSeats": 9,
+    "_class": "com.example.backend.model.Train"
+  },
+  {
+    "_id": {
+      "$oid": "695bb15dd891a862345f8f32"
+    },
+    "name": "Express 30",
+    "number": "TR-1030",
+    "source": "Trincomalee",
+    "destination": "Batticaloa",
+    "departureTime": "15:24",
+    "arrivalTime": "10:44",
+    "price": 1040,
+    "totalSeats": 100,
+    "availableSeats": 37,
+    "_class": "com.example.backend.model.Train"
+  }
+]

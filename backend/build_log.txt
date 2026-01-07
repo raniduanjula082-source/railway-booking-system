@@ -1,0 +1,115 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< com.example:backend >-------------------------
+[INFO] Building backend 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ backend ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 32 source files with javac [debug parameters release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/model/User.java:[6,43] package org.springframework.data.annotation does not exist
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/model/User.java:[7,53] package org.springframework.data.mongodb.core.mapping does not exist
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/model/User.java:[15,2] cannot find symbol
+  symbol: class Document
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/model/Ticket.java:[6,43] package org.springframework.data.annotation does not exist
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/model/Ticket.java:[7,53] package org.springframework.data.mongodb.core.mapping does not exist
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/model/Ticket.java:[13,2] cannot find symbol
+  symbol: class Document
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/model/Train.java:[6,43] package org.springframework.data.annotation does not exist
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/model/Train.java:[7,53] package org.springframework.data.mongodb.core.mapping does not exist
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/model/Train.java:[12,2] cannot find symbol
+  symbol: class Document
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/repository/TicketRepository.java:[4,51] package org.springframework.data.mongodb.repository does not exist
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/repository/TicketRepository.java:[7,43] cannot find symbol
+  symbol: class MongoRepository
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/repository/TrainRepository.java:[4,51] package org.springframework.data.mongodb.repository does not exist
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/repository/TrainRepository.java:[7,42] cannot find symbol
+  symbol: class MongoRepository
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/repository/UserRepository.java:[4,51] package org.springframework.data.mongodb.repository does not exist
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/repository/UserRepository.java:[7,41] cannot find symbol
+  symbol: class MongoRepository
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/security/services/UserDetailsServiceImpl.java:[10,50] package org.springframework.transaction.annotation does not exist
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/service/impl/TicketServiceImpl.java:[12,50] package org.springframework.transaction.annotation does not exist
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/model/User.java:[17,6] cannot find symbol
+  symbol:   class Id
+  location: class com.example.backend.model.User
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/model/Ticket.java:[15,6] cannot find symbol
+  symbol:   class Id
+  location: class com.example.backend.model.Ticket
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/model/Train.java:[14,6] cannot find symbol
+  symbol:   class Id
+  location: class com.example.backend.model.Train
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/security/services/UserDetailsServiceImpl.java:[18,6] cannot find symbol
+  symbol:   class Transactional
+  location: class com.example.backend.security.services.UserDetailsServiceImpl
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/service/impl/TicketServiceImpl.java:[25,6] cannot find symbol
+  symbol:   class Transactional
+  location: class com.example.backend.service.impl.TicketServiceImpl
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/service/impl/TicketServiceImpl.java:[56,6] cannot find symbol
+  symbol:   class Transactional
+  location: class com.example.backend.service.impl.TicketServiceImpl
+[INFO] 23 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.310 s
+[INFO] Finished at: 2026-01-05T17:50:04+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.14.1:compile (default-compile) on project backend: Compilation failure: Compilation failure: 
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/model/User.java:[6,43] package org.springframework.data.annotation does not exist
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/model/User.java:[7,53] package org.springframework.data.mongodb.core.mapping does not exist
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/model/User.java:[15,2] cannot find symbol
+[ERROR]   symbol: class Document
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/model/Ticket.java:[6,43] package org.springframework.data.annotation does not exist
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/model/Ticket.java:[7,53] package org.springframework.data.mongodb.core.mapping does not exist
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/model/Ticket.java:[13,2] cannot find symbol
+[ERROR]   symbol: class Document
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/model/Train.java:[6,43] package org.springframework.data.annotation does not exist
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/model/Train.java:[7,53] package org.springframework.data.mongodb.core.mapping does not exist
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/model/Train.java:[12,2] cannot find symbol
+[ERROR]   symbol: class Document
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/repository/TicketRepository.java:[4,51] package org.springframework.data.mongodb.repository does not exist
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/repository/TicketRepository.java:[7,43] cannot find symbol
+[ERROR]   symbol: class MongoRepository
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/repository/TrainRepository.java:[4,51] package org.springframework.data.mongodb.repository does not exist
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/repository/TrainRepository.java:[7,42] cannot find symbol
+[ERROR]   symbol: class MongoRepository
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/repository/UserRepository.java:[4,51] package org.springframework.data.mongodb.repository does not exist
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/repository/UserRepository.java:[7,41] cannot find symbol
+[ERROR]   symbol: class MongoRepository
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/security/services/UserDetailsServiceImpl.java:[10,50] package org.springframework.transaction.annotation does not exist
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/service/impl/TicketServiceImpl.java:[12,50] package org.springframework.transaction.annotation does not exist
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/model/User.java:[17,6] cannot find symbol
+[ERROR]   symbol:   class Id
+[ERROR]   location: class com.example.backend.model.User
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/model/Ticket.java:[15,6] cannot find symbol
+[ERROR]   symbol:   class Id
+[ERROR]   location: class com.example.backend.model.Ticket
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/model/Train.java:[14,6] cannot find symbol
+[ERROR]   symbol:   class Id
+[ERROR]   location: class com.example.backend.model.Train
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/security/services/UserDetailsServiceImpl.java:[18,6] cannot find symbol
+[ERROR]   symbol:   class Transactional
+[ERROR]   location: class com.example.backend.security.services.UserDetailsServiceImpl
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/service/impl/TicketServiceImpl.java:[25,6] cannot find symbol
+[ERROR]   symbol:   class Transactional
+[ERROR]   location: class com.example.backend.service.impl.TicketServiceImpl
+[ERROR] /E:/trail/railway/backend/src/main/java/com/example/backend/service/impl/TicketServiceImpl.java:[56,6] cannot find symbol
+[ERROR]   symbol:   class Transactional
+[ERROR]   location: class com.example.backend.service.impl.TicketServiceImpl
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
